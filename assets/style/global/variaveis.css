@@ -1,0 +1,8 @@
+
+:root{
+    --cor-gradiente-button: linear-gradient(to right, #FF7348, #A82700);
+    --cor-gradiente-navbar: linear-gradient(to right, #2C2C2C, #929292);
+    --cor-gradiente-txt: linear-gradient(to right, #FF7348, #A82700);
+    --cor-txt-primaria: #787575;
+    --cor-txt-secundaria: #575757;
+}

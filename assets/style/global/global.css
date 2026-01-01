@@ -1,0 +1,9 @@
+/* reset */
+@import url(/assets/style/global/reset.css);
+/* variaveis */
+@import url(/assets/style/global/variaveis.css);
+
+/* section */
+@import url(/assets/style/desktop/section-nav.css);
+@import url(/assets/style/desktop/section-banner.css);
+@import url(/assets/style/desktop/section-perfil.css);
