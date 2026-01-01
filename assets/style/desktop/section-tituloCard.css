@@ -1,0 +1,21 @@
+.titulo-card{
+    width: 100vw;
+    height: 200px;
+    margin-top: 50px;
+    
+    text-align: center;
+}
+.txt-titulo{
+    width: 50%;
+    text-align: center;
+    
+    margin: auto;
+    padding-top: 20px;
+}
+.txt-titulo p{
+    font-size: 35px;
+     background: var(--cor-gradiente-txt); 
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
