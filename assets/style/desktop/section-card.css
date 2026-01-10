@@ -1,23 +1,4 @@
-.section-cards{
-    width: 100vw;
-    height: 1020px;
-    
-}
 
-.flex-card{
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.card{
-    width: 30%;
-    height: 500px;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px 0 #FF7348;
-    padding: 10px;
-}
 .img-card1{
     width: 100%;
     height: 55%;
@@ -25,7 +6,155 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 75, 24, 0.267) ;
+
+}
+.img-card2{
+    width: 100%;
+    height: 55%;
+    background-image: url(/assets/img/3d-illustration-man-with-laptop-sitting-armchair.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 75, 24, 0.267) ;
+
+}
+.img-card3{
+    width: 100%;
+    height: 55%;
+    background-image: url(/assets/img/3d-cute-kid-character-give-thumb-up-while-holding-laptop\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 75, 24, 0.267) ;
+
+}
+.img-card4{
+    width: 100%;
+    height: 55%;
+    background-image: url(/assets/img/man-with-cup-coffee-is-working-laptop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 75, 24, 0.267) ;
+
+}
+.img-card5{
+    width: 100%;
+    height: 55%;
+    background-image: url(/assets/img/man-working-computer-3d-cartoon-illustration.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 75, 24, 0.267) ;
+
+}
+.img-card6{
+    width: 100%;
+    height: 55%;
+    background-image: url(/assets/img/man-working-laptop-his-desk-with-plant.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 75, 24, 0.267) ;
+
+}
+.flex-tecnologias{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
     margin-bottom: 15px;
+
+}
+.tecnologias-card{
+    width: 30%;
+    height: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 4px 10px 0 rgba(241, 80, 6, 0.425) ;
+    
+}.tecnologias-card p{
+   /*  background: var(--cor-gradiente-txt); 
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: rgba(255, 255, 255, 0.63);
+    line-height: 20px;
+    font-weight: 700;
+}
+.desk-card{
+    color: rgba(211, 210, 210, 0.63);
+    text-align: left;
+    
+}
+.flex-button-card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+    
+    
+}
+.button-preview{
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
     box-shadow: 1px 4px 10px 0 rgba(0, 0, 0, 0.389) ;
+    cursor: pointer;
+    background-color: white;
+}   
+.button-preview p{
+    background: var(--cor-gradiente-txt); 
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.button-github{
+    width: 40%;
+    height: 40px;
+    background: var(--cor-gradiente-button);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px #E7633B;
+    line-height: 40px;
+    
+}
+.button-github p{
+   
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.flex-indicacao{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.ind-01, .ind-02{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 30px;
 
 }
