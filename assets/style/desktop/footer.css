@@ -1,0 +1,59 @@
+footer{
+    width: 100vw;
+    height: 100px;
+    
+    margin-top: 80px;
+}
+
+.flex-footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.logo-footer{
+    width: 150px;
+    height: 100%;
+    line-height: 100px;
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.divisor-footer{
+    width: 2px;
+    height: 60px;
+    background-color: rgb(90, 89, 89);
+}
+
+.copy{
+    height: 100px;
+    
+    line-height: 100px;
+}
+
+ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.568);
+}
+#txt-copy{
+    margin-top: -30px;
+    color: rgba(255, 255, 255, 0.568);
+}
+.social{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 30px;
+}
+
+
+
+
+

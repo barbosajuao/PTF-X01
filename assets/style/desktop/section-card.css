@@ -152,9 +152,26 @@
 .ind-01, .ind-02{
     width: 40px;
     height: 30px;
-    background-color: white;
+    
     text-align: center;
     border-radius: 5px;
     line-height: 30px;
+    cursor: pointer;
 
+}
+.ind-01{
+    background: var(--cor-gradiente-button);
+    color : white;
+
+}
+.ind-02{
+    background-color: white;
+    
+
+}
+.ind-02 p{
+    background: var(--cor-gradiente-txt); 
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
